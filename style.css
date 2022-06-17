@@ -71,6 +71,7 @@ main{
     margin:  20px auto 0px auto;
     border-radius: 8px;
     box-shadow: 4px 6px 20px 0px rgba(0, 0, 0, 0.313);
+    padding-right: 10px;
 }
 .novo-prato img{
     display: block;
