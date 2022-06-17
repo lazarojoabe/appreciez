@@ -43,15 +43,15 @@ nav{
 nav a{
     text-decoration: none;
     padding: 5px;
-    margin: 5px 0px;
+    margin: 5px 15px;
     color: var(--branco);
 }
 nav a:hover{
     background-color: var(--marrom-escuro);
-    padding: 10px 5px; 
+    padding: 10px 5px;
     transition: .1s;
 }
-#pratos-principais, #entradas{
+#pratos-principais, #entradas, #sobremesas{
     background-color: var(--marrom-escuro);
     padding: 10px 5px;
 }
@@ -77,6 +77,7 @@ main{
 .novo-prato img{
     display: block;
     padding: 10px;
+    max-height: 100%;
 }
 .descricao{
     text-align: center;
