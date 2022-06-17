@@ -41,17 +41,7 @@ nav{
     background: #363732e1;
     
 }
-nav ul{
-    display: flex;
-    
-}
-nav li + li{
-    margin-left: 15px;
-}
-nav ul li{
-    list-style: none;
-    
-}
+
 nav a{
     text-decoration: none;
     padding: 5px;
@@ -232,15 +222,10 @@ footer{
     }
 }
 @media (max-width: 600px){
-    /* nav ul{
+    nav{
         display: flex;
         flex-direction: column;
         width: 100%;
         text-align: center;
-        margin: 10px 0px;
-        justify-content: center;
     }
-    nav ul li{
-        width: 100%;
-    } */
 }
