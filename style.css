@@ -39,7 +39,6 @@ header h2{
 nav{
     padding: 10px 0px;
     background: #363732e1;
-    
 }
 nav a{
     text-decoration: none;
@@ -64,11 +63,13 @@ main{
 .container-lancamento{
     display: grid;
     justify-content: center;
+    background:#36373267;
+    margin: 20px 0px 0px 0px;
 }
 .lancamento{
     display: flex;
     background-color: var(--branco);
-    margin:  20px auto 0px auto;
+    margin:  20px auto 20px auto;
     border-radius: 8px;
     box-shadow: 4px 6px 20px 0px rgba(0, 0, 0, 0.313);
     padding-right: 10px;
