@@ -67,19 +67,14 @@ main{
 }
 .lancamento{
     display: flex;
-    justify-content: space-around;
-    align-self: center;
     background-color: var(--branco);
     margin:  20px auto 0px auto;
-    width: 100%;
     border-radius: 8px;
     box-shadow: 4px 6px 20px 0px rgba(0, 0, 0, 0.313);
 }
 .novo-prato img{
-   float: left;
-   min-width: 200px;
-   max-width: 400px;
-   max-height: 400px;
+    display: block;
+    padding: 10px;
 }
 .descricao{
     text-align: center;
@@ -89,10 +84,6 @@ main{
 }
 .descricao h1{
     font-style: italic;
-}
-.novo-prato img{
-    float: left;
-    max-width: 300px;
 }
 aside{
     font-size: 2em;
@@ -229,12 +220,13 @@ footer{
         text-align: center;
     }
     .lancamento{
-        width: 100%;
         display: block;
+        margin: 0px auto;
+        margin-top: 10px;
+
     }
-    .novo-prato{
-        justify-content: center;
-        align-content: flex-start;
+    .novo-prato img{
+        margin: 0px auto;
     }
     .bloco{
         width: 100%;
