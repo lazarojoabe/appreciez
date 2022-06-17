@@ -37,14 +37,14 @@ header h2{
     font-size: 1.1em;
 }
 nav{
-    padding: 10px;
+    padding: 10px 0px;
     background: #363732e1;
     
 }
-
 nav a{
     text-decoration: none;
     padding: 5px;
+    margin: 5px 0px;
     color: var(--branco);
 }
 nav a:hover{
@@ -227,5 +227,16 @@ footer{
         flex-direction: column;
         width: 100%;
         text-align: center;
+    }
+    .lancamento{
+        width: 100%;
+        display: block;
+    }
+    .novo-prato{
+        justify-content: center;
+        align-content: flex-start;
+    }
+    .bloco{
+        width: 100%;
     }
 }
