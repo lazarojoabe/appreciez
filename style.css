@@ -21,7 +21,20 @@ img{
     display: grid;
     
 }
-
+.estrutura-home{
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    ;
+}
+.home-1{
+    background-image: url(img/fundo-1.jpg);
+    grid-area: a;
+    height: 33.33%;
+    width: 100%;
+}
 header{
     background: var(--marrom-escuro);
     text-align: center;
@@ -51,7 +64,7 @@ nav a:hover{
     padding: 10px 5px;
     transition: .1s;
 }
-#pratos-principais, #entradas, #sobremesas{
+#pratos-principais, #entradas, #sobremesas, #home{
     background-color: var(--marrom-escuro);
     padding: 10px 5px;
 }
